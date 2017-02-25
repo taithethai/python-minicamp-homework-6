@@ -2,7 +2,6 @@ body {
 	margin: 0px;
 }
 .container {
-/*  margin: 5px 2px 7px 7px;*/
   display: flex;
   flex-direction: column;
   width: 100%;
