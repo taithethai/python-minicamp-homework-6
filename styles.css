@@ -1,0 +1,43 @@
+body {
+	margin: 0px;
+}
+.container {
+/*  margin: 5px 2px 7px 7px;*/
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1000px;
+  background: white;
+}
+.edge {
+  display: flex;
+  flex: 1;
+}
+.black {
+  margin: 30% 10%;
+  flex: 1;
+  background: black;
+}
+.mid {
+  margin: auto;
+  background: blue;
+  width: 70%;
+  flex: 8;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.square {
+  margin: 4% 2.5%;
+  flex: 0 1 15%;
+  height: 98.7px;
+  background: yellow;
+}
+.header {
+  background: red;
+}
+.footer {
+  background: green;
+}
